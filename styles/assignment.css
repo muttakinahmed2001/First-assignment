@@ -1,0 +1,26 @@
+/* banner section */
+ 
+.banner{
+    background-image: url(../images/banner/banner3.png);width: 1600px;
+    height: 808px;
+}
+.banner-title{
+    font-weight: 700;
+font-size: 65px;text-align: left;
+padding-left: 840px;padding-top: 237px;color: #FFFFFF;font-family:;
+}
+.banner-description{
+    width: 494px;
+    height: 78px;
+padding-left: 840px;
+margin-top: 24px;
+color: #FFFFFF;
+
+}
+button{
+    margin-left: 840px;
+    margin-top: 32px;width: 160px;
+    height: 64px;font-weight: 600;
+    font-size: 20px;color: #005FAC;
+    
+}
