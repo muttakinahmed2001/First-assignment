@@ -63,9 +63,8 @@ button {
 }
 
 .first-section-description {
-    margin-top: 
-    margin-bottom: 
-
+    margin-top:
+        margin-bottom:
 }
 
 ul {
@@ -82,10 +81,24 @@ ul {
     margin-bottom: 50px;
 
 }
+
 /* skill  */
-.skill{
+.skill {
     display: flex;
-justify-content: space-between;
- padding-left: 230px;
- padding-right: 230px;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 230px;text-align: center;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    
+
 }
