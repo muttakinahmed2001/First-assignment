@@ -2,23 +2,27 @@
 
 .banner {
     background-image: url(../images/banner/banner3.png);
-    width: 1600px;
+    width: 100%;
+    margin-top: 0px;
     height: 808px;
+    background-repeat: no-repeat;
 }
 
 .banner-title {
     font-weight: 700;
-    font-size: 65px;
-    text-align: left;
+    font-size: 50px;
+
     padding-left: 840px;
+    margin-top: 0;
     padding-top: 237px;
     color: #FFFFFF;
     font-family: ;
+
 }
 
 .banner-description {
     width: 494px;
-    height: 78px;
+    height: 50px;
     padding-left: 840px;
     margin-top: 24px;
     color: #FFFFFF;
@@ -33,30 +37,55 @@ button {
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
+    margin-bottom: 150px;
 
 }
 
 /* first section */
 .first-section {
     display: flex;
+    gap: 50px;
 
+}
+
+.images {
+    margin-top: 280px;
+    padding-left: 100px;
+    width: 569px;
+    height: 723.3px;
 }
 
 .first-section-title {
     font-weight: 700;
     font-size: 40px;
-    padding-left: 300px;
+
+    margin-top: 380px;
+}
+
+.first-section-description {
+    margin-top: 
+    margin-bottom: 
+
 }
 
 ul {
     width: 349px;
     height: 162px;
-    padding-left: 320px;
+
 }
 
- .first-section-description{
-    padding-left: 300px;
- }
- .images{
-    margin-top: 120px;
- }
+/* plan section */
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+/* skill  */
+.skill{
+    display: flex;
+justify-content: space-between;
+ padding-left: 230px;
+ padding-right: 230px;
+}
